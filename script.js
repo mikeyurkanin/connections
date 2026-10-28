@@ -10,20 +10,20 @@ const DEFAULT_PUZZLE = {
   title: "Connections",
   groups: [
     {
-      title: "52",
-      words: ["Card deck", "Weeks", "Piano white keys", "26+26"]
+      title: "Newport El",
+      words: ["Mathers", "Hawkins", "Elston", "Norman"]
     },
     {
-      title: "Presidents",
-      words: ["Jefferson", "Washington", "Monroe", "Truman"]
+      title: "Streaming services",
+      words: ["Netflix", "Hulu", "YouTube", "Apple TV"]
     },
     {
-      title: "OC",
-      words: ["Ocean City", "Orange County", "Orange Crush", "Original character"]
+      title: "Friends",
+      words: ["Layla", "Charlotte", "Brooke", "Luka"]
     },
     {
-      title: "Capitals named after presidents",
-      words: ["Jackson", "Jefferson City", "Madison", "Lincoln"]
+      title: "Ice cream",
+      words: ["Chocolate", "Vanilla", "Mint", "Oreo"]
     }
   ]
 };
