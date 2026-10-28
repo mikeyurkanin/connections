@@ -1,4 +1,4 @@
-/**
+erson/**
  * Connections – customizable version
  *
  * Edit the PUZZLE object below (or use the in-app editor)
@@ -15,7 +15,7 @@ const DEFAULT_PUZZLE = {
     },
     {
       title: "Presidents",
-      words: ["Lincoln", "Washington", "Monroe", "Truman"]
+      words: ["Jefferson", "Washington", "Monroe", "Truman"]
     },
     {
       title: "OC",
