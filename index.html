@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Connections</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Connections</h1>
+      <p class="subtitle">Group words that share a common thread</p>
+    </header>
+
+    <div id="solved-groups" class="solved-groups"></div>
+
+    <div id="board" class="board" aria-label="Word board"></div>
+
+    <div class="status">
+      <div class="mistakes">
+        <span>Mistakes remaining:</span>
+        <div id="mistake-dots" class="mistake-dots"></div>
+      </div>
+      <div id="message" class="message" role="status"></div>
+    </div>
+
+    <div class="controls">
+      <button id="btn-shuffle" class="btn secondary">Shuffle</button>
+      <button id="btn-deselect" class="btn secondary">Deselect all</button>
+      <button id="btn-submit" class="btn primary" disabled>Submit</button>
+    </div>
+
+    <div id="end-screen" class="end-screen hidden">
+      <h2 id="end-title"></h2>
+      <p id="end-message"></p>
+      <button id="btn-restart" class="btn primary">Play again</button>
+    </div>
+
+    <footer>
+      <button id="btn-edit" class="btn link">Edit this puzzle</button>
+      <p class="hint">Host your own on GitHub Pages — see README</p>
+    </footer>
+  </div>
+
+  <!-- Simple editor modal -->
+  <div id="editor-modal" class="modal hidden">
+    <div class="modal-content">
+      <h2>Define your Connections</h2>
+      <p class="editor-help">
+        Edit the JSON below. Each group needs a <code>title</code> and exactly 4 <code>words</code>.
+        Order of groups = difficulty (first = easiest/yellow).
+      </p>
+      <textarea id="puzzle-json" rows="18" spellcheck="false"></textarea>
+      <div class="modal-actions">
+        <button id="btn-cancel-edit" class="btn secondary">Cancel</button>
+        <button id="btn-load-example" class="btn secondary">Load example</button>
+        <button id="btn-save-puzzle" class="btn primary">Save & Play</button>
+      </div>
+      <p id="editor-error" class="error"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
