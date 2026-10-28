@@ -22,7 +22,7 @@ const DEFAULT_PUZZLE = {
       words: ["Layla", "Charlotte", "Brooke", "Luca"]
     },
     {
-      title: "Philadelphia",
+      title: "Philadelphia Teams",
       words: ["Phillies", "Flyers", "Eagles", "76ers"]
     }
   ]
