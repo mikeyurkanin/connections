@@ -19,11 +19,11 @@ const DEFAULT_PUZZLE = {
     },
     {
       title: "Friends",
-      words: ["Layla", "Charlotte", "Brooke", "Luka"]
+      words: ["Layla", "Charlotte", "Brooke", "Luca"]
     },
     {
       title: "Ice cream",
-      words: ["Chocolate", "Vanilla", "Mint", "Oreo"]
+      words: ["Phillies", "Flyers", "Eagles", "76ers"]
     }
   ]
 };
