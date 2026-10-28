@@ -10,20 +10,20 @@ const DEFAULT_PUZZLE = {
   title: "Connections",
   groups: [
     {
-      title: "TYPES OF FISH",
-      words: ["BASS", "FLOUNDER", "SALMON", "TROUT"]
+      title: "52",
+      words: ["Card deck", "Weeks", "Piano white keys", "26+26"]
     },
     {
-      title: "FIRE ___",
-      words: ["ANT", "DRILL", "HYDRANT", "TRUCK"]
+      title: "Presidents",
+      words: ["Jefferson", "Washington", "Monroe", "Truman"]
     },
     {
-      title: "THINGS THAT ARE ROUND",
-      words: ["BALL", "CIRCLE", "RING", "WHEEL"]
+      title: "OC",
+      words: ["Ocean City", "Orange County", "Orange Crush", "Original character"]
     },
     {
-      title: "WORDS AFTER \"FIRE\"",
-      words: ["FIGHTER", "FLY", "PLACE", "WORK"]
+      title: "Capitals named after presidents",
+      words: ["Jackson", "Jefferson City", "Madison", "Lincoln"]
     }
   ]
 };
