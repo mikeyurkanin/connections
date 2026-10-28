@@ -1,4 +1,4 @@
-erson/**
+/**
  * Connections – customizable version
  *
  * Edit the PUZZLE object below (or use the in-app editor)
@@ -10,20 +10,20 @@ const DEFAULT_PUZZLE = {
   title: "Connections",
   groups: [
     {
-      title: "52",
-      words: ["Card deck", "Weeks", "Piano white keys", "26+26"]
+      title: "TYPES OF FISH",
+      words: ["BASS", "FLOUNDER", "SALMON", "TROUT"]
     },
     {
-      title: "Presidents",
-      words: ["Jefferson", "Washington", "Monroe", "Truman"]
+      title: "FIRE ___",
+      words: ["ANT", "DRILL", "HYDRANT", "TRUCK"]
     },
     {
-      title: "OC",
-      words: ["Ocean City", "Orange County", "Orange Crush", "Original character"]
+      title: "THINGS THAT ARE ROUND",
+      words: ["BALL", "CIRCLE", "RING", "WHEEL"]
     },
     {
-      title: "Capitals named after presidents",
-      words: ["Jackson", "Jefferson City", "Madison", "Lincoln"]
+      title: "WORDS AFTER \"FIRE\"",
+      words: ["FIGHTER", "FLY", "PLACE", "WORK"]
     }
   ]
 };
